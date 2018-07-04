@@ -8,7 +8,7 @@
     {
         public static void Main()
         {
-            string connectionString = @"Server=LAPTOP-SHADY\SQLEXPRESS;Database=MiniORM; Integrated Security=true";
+            string connectionString = @""; // <-- Insert Connection String Here;
 
             SoftUniDbContext context = new SoftUniDbContext(connectionString);
 
