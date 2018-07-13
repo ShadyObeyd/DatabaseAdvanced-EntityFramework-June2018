@@ -18,7 +18,8 @@
             builder
                 .HasMany(c => c.SecondaryKitTeams)
                 .WithOne(skt => skt.SecondaryKitColor)
-                .HasForeignKey(skt => skt.SecondaryKitColorId);
+                .HasForeignKey(skt => skt.SecondaryKitColorId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

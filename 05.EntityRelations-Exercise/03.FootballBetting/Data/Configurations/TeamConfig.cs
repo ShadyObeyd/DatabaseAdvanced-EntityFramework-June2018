@@ -13,7 +13,8 @@
             builder
                 .HasMany(t => t.HomeGames)
                 .WithOne(hg => hg.HomeTeam)
-                .HasForeignKey(hg => hg.HomeTeamId);
+                .HasForeignKey(hg => hg.HomeTeamId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder
                 .HasMany(t => t.AwayGames)

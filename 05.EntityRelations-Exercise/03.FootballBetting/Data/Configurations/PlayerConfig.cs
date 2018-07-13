@@ -23,7 +23,8 @@
             builder
                 .HasMany(p => p.PlayerStatistics)
                 .WithOne(ps => ps.Player)
-                .HasForeignKey(ps => ps.PlayerId);
+                .HasForeignKey(ps => ps.PlayerId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
