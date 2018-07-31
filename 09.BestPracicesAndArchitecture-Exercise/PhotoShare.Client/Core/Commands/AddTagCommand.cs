@@ -25,14 +25,12 @@
                 throw new ArgumentException($"Command {commandName} not valid");
             }
 
-            string tagName = args[0];
+            string tagName = args[0].ValidateOrTransform();
 
             if (this.tagService.Exists(tagName))
             {
                 throw new ArgumentException($"Tag {tagName} exists!");
             }
-
-            tagName = tagName.ValidateOrTransform();
 
             this.tagService.AddTag(tagName);
 
