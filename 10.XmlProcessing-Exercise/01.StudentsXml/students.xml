@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <student>
+    <name>Pesho</name>
+    <gender>Male</gender>
+    <birthDate>1992/07/31</birthDate>
+    <phoneNumber>0883635436</phoneNumber>
+    <email>pesho.peshev@softuni.bg</email>
+    <university>Software Unviversity</university>
+    <speciality>C# Web Developer</speciality>
+    <facultyNumber>23421432423423</facultyNumber>
+    <exams>
+      <exam>
+        <name>Database Basics - MS SQL</name>
+        <dateTaken>2018/06/24</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+      <exam>
+        <name>Entity Framework Core</name>
+        <dateTaken>2018/08/12</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Sara</name>
+    <gender>Female</gender>
+    <birthDate>1990/03/02</birthDate>
+    <phoneNumber>0888364563</phoneNumber>
+    <email>sara@gmail.com</email>
+    <university>Software Unviversity</university>
+    <speciality>Java Developer</speciality>
+    <facultyNumber>1388731568</facultyNumber>
+    <exams>
+      <exam>
+        <name>Database Basics - MS SQL</name>
+        <dateTaken>2018/06/24</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+      <exam>
+        <name>Entity Framework Core</name>
+        <dateTaken>2018/08/12</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+    </exams>
+  </student>
+</ArrayOfStudent>
