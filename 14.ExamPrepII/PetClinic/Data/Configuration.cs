@@ -2,6 +2,6 @@
 {
     public static class Configuration
     {
-        public static string ConnectionString = @"Server=LAPTOP-SHADY\SQLEXPRESS;Database=PetClinic;Trusted_Connection=True";
+        public static string ConnectionString = @""; // // <-- Insert connection string here!
     }
 }
